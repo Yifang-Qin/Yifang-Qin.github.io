@@ -20,6 +20,12 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a PhD. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, I have received my B.S. degree at school of EECS, Peking University in 2023.
 
+My research interests include Recommender Systems, Graph Neural Networks and other applications of GNN.
+
+---
+
+#### Academic Services
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
