@@ -1,12 +1,63 @@
 ---
 ---
+@String { ACMMM        = {Proceedings of the ACM International Conference on Multimedia} }
+@String { ARXIV        = {arXiv} }
+@String { BMVC         = {Proceedings of the British Machine Vision Conference} }
+@String { CVPR         = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition} }
+@String { ECCV         = {Proceedings of the European Conference on Computer Vision.} }
+@String { ICASSP       = {Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing} }
+@String { ICCP         = {Proceedings of the IEEE International Conference on Computational Photography} }
+@String { ICCV         = {Proceedings of the IEEE/CVF International Conference on Computer Vision} }
+@String { ICIP         = {Proceedings of the IEEE International Conference on Image Processing} }
+@String { ICLR         = {Proceedings of the International Conference on Learning Representations} }
+@String { ICME         = {Proceedings of the IEEE International Conference on Multimedia and Expo} }
+@String { ICML         = {Proceedings of the International Conference on Machine Learning} }
+@String { ICDM         = {Proceedings of the International Conference on Data Mining} }
+@String { ICDMW         = {Proceedings of the International Conference on Data Mining Workshops} }
+@String { ICMLW         = {Proceedings of the International Conference on Machine Learning Workshop} }
+@String { ACL        = {Proceedings of the Annual Meeting of the Association for Computational Linguistics} }
+@String { ICPR         = {International Conference on Pattern Recognition} } 
+@String { IJCV         = {Int. J. Comput. Vis.} }
+@String { NIPS         = {Proceedings of the Conference on Neural Information Processing Systems} }
+@String { NIPSW        = {Proceedings of the International Conference on Neural Information Processing Systems Workshop} }
+@String { TPAMI         = {IEEE Transactions on Pattern Analysis and Machine Intelligence} }
+@String { TNNLS        = {IEEE Transactions on Neural Networks and Learning Systems}}
+@String { PR           = {Pattern Recognition} }
+@String { TIP          = {IEEE Transactions on Image Processing} }
+@String { TMM          = {IEEE Transactions on Multimedia} }
+@String { TIT          = {IEEE Transactions on Information Theory} }
+@String { WACV         = {Proceedings of the IEEE Winter Conference on Applications of Computer Vision}}
+@String { SPL         = {IEEE Signal Processing Letters}}
+@String { AAAI         = {Proceedings of the AAAI Conference on Artificial Intelligence}}
+@String { IJCAI         = {Proceedings of the International Joint Conference on Artificial Intelligence}}
+@String { WWW        = {Proceedings of the Web Conference}}
+@String { TOIS        = {ACM Transactions on Information Systems}}
+@String { TKDD        = {ACM Transactions on Knowledge Discovery from Data}}
+@String { TKDE        = {IEEE Transactions on Knowledge and Data Engineering}}
+@String { ICDE        = {Proceedings of the IEEE Conference on Data Engineering}}
+@String { CIKM        = {Proceedings of the International Conference on Information and Knowledge Management}}
+@String { WSDM       = {Proceedings of the International Conference on Web Search and Data Mining}}
+@String { TOMM        = {ACM Transactions on Multimedia Computing, Communications, and Applications}}
+@String { SIGIR        = {Proceedings of the International ACM SIGIR Conference on Research \& Development in Information Retrieval}}
+@String { WSDM       = {Proceedings of the International ACM Conference on Web Search \& Data Mining}}
+@String { KDD        = {Proceedings of the International ACM SIGKDD Conference on Knowledge Discovery \& Data Mining}}
+@String { KDDW        = {Proceedings of the International ACM SIGKDD Conference on Knowledge Discovery \& Data Mining Workshop}}
+@String { VLDB       = {Proceedings of the International Conference on Very Large Data Bases}}
+@String { TCVST       = {IEEE Transactions on Circuits and Systems for Video Technology}}
+@String { EMNLP       = {Proceedings of the Conference on Empirical Methods in Natural Language Processing }}
+@String { AISTATS      = {Proceedings of the International Conference on Artificial Intelligence and Statistics}}
+@String { SDM      = {Proceedings of the SIAM International Conference on Data Mining}}
 
 @article{qin2023diffusion,
-  title   = {A Diffusion model for POI recommendation},
-  author  = {Qin, Yifang and Wu, Hongjun and Ju, Wei and Luo, Xiao and Zhang, Ming},
-  journal = {arXiv preprint arXiv:2304.07041},
-  year    = {2023},
-  selected={true}
+  title    = {A Diffusion model for POI recommendation},
+  author   = {Qin, Yifang and Wu, Hongjun and Ju, Wei and Luo, Xiao and Zhang, Ming},
+  journal  = {ACM Transactions on Information Systems},
+  url      = {http://dx.doi.org/10.1145/3624475},
+  html     = {https://arxiv.org/abs/2304.07041},
+  doi      = {10.1145/3624475},
+  abstract = {Next Point-of-Interest (POI) recommendation is a critical task in location-based services that aim to provide personalized suggestions for the user's next destination. Previous works on POI recommendation have laid focused on modeling the user's spatial preference. However, existing works that leverage spatial information are only based on the aggregation of users' previous visited positions, which discourages the model from recommending POIs in novel areas. This trait of position-based methods will harm the model's performance in many situations. Additionally, incorporating sequential information into the user's spatial preference remains a challenge. In this paper, we propose Diff-POI: a Diffusion-based model that samples the user's spatial preference for the next POI recommendation. Inspired by the wide application of diffusion algorithm in sampling from distributions, Diff-POI encodes the user's visiting sequence and spatial character with two tailor-designed graph encoding modules, followed by a diffusion-based sampling strategy to explore the user's spatial visiting trends. We leverage the diffusion process and its reversed form to sample from the posterior distribution and optimized the corresponding score function. We design a joint training and inference framework to optimize and evaluate the proposed Diff-POI. Extensive experiments on four real-world POI recommendation datasets demonstrate the superiority of our Diff-POI over state-of-the-art baseline methods. Further ablation and parameter studies on Diff-POI reveal the functionality and effectiveness of the proposed diffusion-based sampling strategy for addressing the limitations of existing methods.},
+  year     = {2023},
+  selected = {true}
 }
 
 @inproceedings{10.1145/3539597.3570408,
@@ -25,7 +76,8 @@
   keywords  = {disentangled representation learning, POI recommendation, graph neural networks},
   location  = {Singapore, Singapore},
   series    = {WSDM '23},
-  selected={true}
+  pdf       = {WSDM_23.pdf},
+  selected  = {true}
 }
 
 
@@ -37,8 +89,7 @@
   volume  = {},
   number  = {},
   pages   = {1-13},
-  doi     = {10.1109/TKDE.2023.3280859},
-  selected={true}
+  doi     = {10.1109/TKDE.2023.3280859}
 }
 
 @inproceedings{10096088,
@@ -49,21 +100,21 @@
   volume    = {},
   number    = {},
   pages     = {1-5},
-  doi       = {10.1109/ICASSP49357.2023.10096088},
+  doi       = {10.1109/ICASSP49357.2023.10096088}
 }
 
 @article{Ju_Gu_Chen_Sun_Qin_Liu_Luo_Zhang_2023,
-  title        = {GLCC: A General Framework for Graph-Level Clustering},
-  volume       = {37},
-  url          = {https://ojs.aaai.org/index.php/AAAI/article/view/25559},
-  doi          = {10.1609/aaai.v37i4.25559},
-  abstractnote = {This paper studies the problem of graph-level clustering, which is a novel yet challenging task. This problem is critical in a variety of real-world applications such as protein clustering and genome analysis in bioinformatics. Recent years have witnessed the success of deep clustering coupled with graph neural networks (GNNs). However, existing methods focus on clustering among nodes given a single graph, while exploring clustering on multiple graphs is still under-explored. In this paper, we propose a general graph-level clustering framework named Graph-Level Contrastive Clustering (GLCC) given multiple graphs. Specifically, GLCC first constructs an adaptive affinity graph to explore instance- and cluster-level contrastive learning (CL). Instance-level CL leverages graph Laplacian based contrastive loss to learn clustering-friendly representations while cluster-level CL captures discriminative cluster representations incorporating neighbor information of each sample. Moreover, we utilize neighbor-aware pseudo-labels to reward the optimization of representation learning. The two steps can be alternatively trained to collaborate and benefit each other. Experiments on a range of well-known datasets demonstrate the superiority of our proposed GLCC over competitive baselines.},
-  number       = {4},
-  journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  author       = {Ju, Wei and Gu, Yiyang and Chen, Binqi and Sun, Gongbo and Qin, Yifang and Liu, Xingyuming and Luo, Xiao and Zhang, Ming},
-  year         = {2023},
-  month        = {Jun.},
-  pages        = {4391-4399}
+  title    = {GLCC: A General Framework for Graph-Level Clustering},
+  volume   = {37},
+  url      = {https://ojs.aaai.org/index.php/AAAI/article/view/25559},
+  doi      = {10.1609/aaai.v37i4.25559},
+  abstract = {This paper studies the problem of graph-level clustering, which is a novel yet challenging task. This problem is critical in a variety of real-world applications such as protein clustering and genome analysis in bioinformatics. Recent years have witnessed the success of deep clustering coupled with graph neural networks (GNNs). However, existing methods focus on clustering among nodes given a single graph, while exploring clustering on multiple graphs is still under-explored. In this paper, we propose a general graph-level clustering framework named Graph-Level Contrastive Clustering (GLCC) given multiple graphs. Specifically, GLCC first constructs an adaptive affinity graph to explore instance- and cluster-level contrastive learning (CL). Instance-level CL leverages graph Laplacian based contrastive loss to learn clustering-friendly representations while cluster-level CL captures discriminative cluster representations incorporating neighbor information of each sample. Moreover, we utilize neighbor-aware pseudo-labels to reward the optimization of representation learning. The two steps can be alternatively trained to collaborate and benefit each other. Experiments on a range of well-known datasets demonstrate the superiority of our proposed GLCC over competitive baselines.},
+  number   = {4},
+  journal  = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  author   = {Ju, Wei and Gu, Yiyang and Chen, Binqi and Sun, Gongbo and Qin, Yifang and Liu, Xingyuming and Luo, Xiao and Zhang, Ming},
+  year     = {2023},
+  month    = {Jun.},
+  pages    = {4391-4399}
 }
 
 @inproceedings{10027744,
@@ -75,7 +126,9 @@
   number    = {},
   pages     = {221-230},
   doi       = {10.1109/ICDM54844.2022.00032},
-  selected={true}
+  html      = {https://ieeexplore.ieee.org/abstract/document/10027744},
+  pdf       = {ICDM_2022.pdf},
+  selected  = {true}
 }
 
 @inproceedings{10.1007/978-3-031-26387-3_29,
@@ -100,7 +153,9 @@
   pages     = {474--490},
   abstract  = {Collaborative filtering (CF) has become one of the most popular and widely used methods in recommender systems, but its performance degrades sharply in practice due to the sparsity and bias of the real-world user feedback data. In this paper, we propose a novel counterfactual data augmentation framework AD-AUG to mitigate the impact of the imperfect training data and empower CF models. The key idea of AD-AUG is to answer the counterfactual question: ``what would be a user's feedback if his previous purchase history had been different?''. Our framework is composed of an augmenter model and a recommender model. The augmenter model aims to generate counterfactual user feedback based on the observed ones, while the recommender leverages the original and counterfactual user feedback data to provide the final recommendation. In particular, we design two adversarial learning-based methods from both ``bottom-up'' data-oriented and ``top-down'' model-oriented perspectives for counterfactual learning. Extensive experiments on three real-world datasets show that the AD-AUG can greatly enhance a wide range of CF models, demonstrating our framework's effectiveness and generality.},
   isbn      = {978-3-031-26387-3},
-  selected={true}
+  html      = {https://link.springer.com/chapter/10.1007/978-3-031-26387-3_29},
+  pdf       = {ECML_2022.pdf},
+  selected  = {true}
 }
 
 
@@ -121,7 +176,9 @@
   keywords  = {graph neural networks, disentangled representation learning, ctr prediction},
   location  = {Madrid, Spain},
   series    = {SIGIR '22},
-  selected={true}
+  html = {https://dl.acm.org/doi/10.1145/3477495.3531851},
+  pdf = {SIGIR_2022.pdf},
+  selected  = {true}
 }
 
 
