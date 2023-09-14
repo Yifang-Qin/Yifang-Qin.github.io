@@ -54,6 +54,7 @@
   journal  = {ACM Transactions on Information Systems},
   url      = {http://dx.doi.org/10.1145/3624475},
   html     = {https://arxiv.org/abs/2304.07041},
+  pdf      = {TOIS_2023.pdf},
   doi      = {10.1145/3624475},
   abstract = {Next Point-of-Interest (POI) recommendation is a critical task in location-based services that aim to provide personalized suggestions for the user's next destination. Previous works on POI recommendation have laid focused on modeling the user's spatial preference. However, existing works that leverage spatial information are only based on the aggregation of users' previous visited positions, which discourages the model from recommending POIs in novel areas. This trait of position-based methods will harm the model's performance in many situations. Additionally, incorporating sequential information into the user's spatial preference remains a challenge. In this paper, we propose Diff-POI: a Diffusion-based model that samples the user's spatial preference for the next POI recommendation. Inspired by the wide application of diffusion algorithm in sampling from distributions, Diff-POI encodes the user's visiting sequence and spatial character with two tailor-designed graph encoding modules, followed by a diffusion-based sampling strategy to explore the user's spatial visiting trends. We leverage the diffusion process and its reversed form to sample from the posterior distribution and optimized the corresponding score function. We design a joint training and inference framework to optimize and evaluate the proposed Diff-POI. Extensive experiments on four real-world POI recommendation datasets demonstrate the superiority of our Diff-POI over state-of-the-art baseline methods. Further ablation and parameter studies on Diff-POI reveal the functionality and effectiveness of the proposed diffusion-based sampling strategy for addressing the limitations of existing methods.},
   year     = {2023},
@@ -68,6 +69,7 @@
   publisher = {Association for Computing Machinery},
   address   = {New York, NY, USA},
   url       = {https://doi.org/10.1145/3539597.3570408},
+  html      = {https://dl.acm.org/doi/10.1145/3539597.3570408},
   doi       = {10.1145/3539597.3570408},
   abstract  = {Point-of-Interest (POI) recommendation plays a vital role in various location-aware services. It has been observed that POI recommendation is driven by both sequential and geographical influences. However, since there is no annotated label of the dominant influence during recommendation, existing methods tend to entangle these two influences, which may lead to sub-optimal recommendation performance and poor interpretability. In this paper, we address the above challenge by proposing DisenPOI, a novel Disentangled dual-graph framework for POI recommendation, which jointly utilizes sequential and geographical relationships on two separate graphs and disentangles the two influences with self-supervision. The key novelty of our model compared with existing approaches is to extract disentangled representations of both sequential and geographical influences with contrastive learning. To be specific, we construct a geographical graph and a sequential graph based on the check-in sequence of a user. We tailor their propagation schemes to become sequence-/geo-aware to better capture the corresponding influences. Preference proxies are extracted from check-in sequence as pseudo labels for the two influences, which supervise the disentanglement via a contrastive loss. Extensive experiments on three datasets demonstrate the superiority of the proposed model.},
   booktitle = {Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
@@ -77,6 +79,7 @@
   location  = {Singapore, Singapore},
   series    = {WSDM '23},
   pdf       = {WSDM_23.pdf},
+  code      = {https://github.com/Yifang-Qin/DisenPOI},
   selected  = {true}
 }
 
@@ -107,6 +110,8 @@
   title    = {GLCC: A General Framework for Graph-Level Clustering},
   volume   = {37},
   url      = {https://ojs.aaai.org/index.php/AAAI/article/view/25559},
+  html = {https://ojs.aaai.org/index.php/AAAI/article/view/25559/25331},
+  pdf = {AAAI_2023.pdf},
   doi      = {10.1609/aaai.v37i4.25559},
   abstract = {This paper studies the problem of graph-level clustering, which is a novel yet challenging task. This problem is critical in a variety of real-world applications such as protein clustering and genome analysis in bioinformatics. Recent years have witnessed the success of deep clustering coupled with graph neural networks (GNNs). However, existing methods focus on clustering among nodes given a single graph, while exploring clustering on multiple graphs is still under-explored. In this paper, we propose a general graph-level clustering framework named Graph-Level Contrastive Clustering (GLCC) given multiple graphs. Specifically, GLCC first constructs an adaptive affinity graph to explore instance- and cluster-level contrastive learning (CL). Instance-level CL leverages graph Laplacian based contrastive loss to learn clustering-friendly representations while cluster-level CL captures discriminative cluster representations incorporating neighbor information of each sample. Moreover, we utilize neighbor-aware pseudo-labels to reward the optimization of representation learning. The two steps can be alternatively trained to collaborate and benefit each other. Experiments on a range of well-known datasets demonstrate the superiority of our proposed GLCC over competitive baselines.},
   number   = {4},
@@ -126,8 +131,10 @@
   number    = {},
   pages     = {221-230},
   doi       = {10.1109/ICDM54844.2022.00032},
+  abstract  = {Point-of-Interest (POI) recommendation, which benefits from the proliferation of GPS-enabled devices and location-based social networks (LBSNs), plays an increasingly important role in recommender systems. It aims to provide users with the convenience to discover their interested places to visit based on previous visits and current status. Most existing methods usually merely leverage recurrent neural networks (RNNs) to explore sequential influences for recommendation. Despite the effectiveness, these methods not only neglect topological geographical influences among POIs, but also fail to model high-order sequential substructures. To tackle the above issues, we propose a Kernel-Based Graph Neural Network (KBGNN) for next POI recommendation, which combines the characteristics of both geographical and sequential influences in a collaborative way. KBGNN consists of a geographical module and a sequential module. On the one hand, we construct a geographical graph and leverage a message passing neural network to capture the topological geographical influences. On the other hand, we explore high-order sequential substructures in the user-aware sequential graph using a graph kernel neural network to capture user preferences. Finally, a consistency learning framework is introduced to jointly incorporate geographical and sequential information extracted from two separate graphs. In this way, the two modules effectively exchange knowledge to mutually enhance each other. Extensive experiments conducted on two real-world LBSN datasets demonstrate the superior performance of our proposed method over the state-of-the-arts.},
   html      = {https://ieeexplore.ieee.org/abstract/document/10027744},
   pdf       = {ICDM_2022.pdf},
+  code      = {https://github.com/Yifang-Qin/KBGNN},
   selected  = {true}
 }
 
@@ -155,6 +162,7 @@
   isbn      = {978-3-031-26387-3},
   html      = {https://link.springer.com/chapter/10.1007/978-3-031-26387-3_29},
   pdf       = {ECML_2022.pdf},
+  code      = {https://github.com/Yifang-Qin/AD-AUG},
   selected  = {true}
 }
 
@@ -176,8 +184,9 @@
   keywords  = {graph neural networks, disentangled representation learning, ctr prediction},
   location  = {Madrid, Spain},
   series    = {SIGIR '22},
-  html = {https://dl.acm.org/doi/10.1145/3477495.3531851},
-  pdf = {SIGIR_2022.pdf},
+  html      = {https://dl.acm.org/doi/10.1145/3477495.3531851},
+  pdf       = {SIGIR_2022.pdf},
+  code      = {https://github.com/Yifang-Qin/DisenCTR},
   selected  = {true}
 }
 
