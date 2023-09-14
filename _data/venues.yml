@@ -5,33 +5,33 @@
 "PhysRev":
   url: https://journals.aps.org/
 
-"TOIS (CCF A)":
+"TOIS":
   url: https://dl.acm.org/journal/tois
   color: "#800080"
 
-"WSDM (CCF B)":
+"WSDM":
   url: https://www.wsdm-conference.org/
 
-"TKDE (CCF A)":
+"TKDE":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69
   color: "#800080"
 
-"ICASSP (CCF B)":
+"ICASSP":
   url: https://signalprocessingsociety.org/blog/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing
 
-"AAAI (CCF A)":
+"AAAI":
   url: https://aaai.org/
   color: "#800080"
 
-"ICDM (CCF B)":
+"ICDM":
   url: https://ieeexplore.ieee.org/xpl/conhome/1000179/all-proceedings
 
-"ECML-PKDD<br/>(CCF B)":
+"ECML-PKDD":
   url: https://ecmlpkdd.org/
 
-"SIGIR (CCF A)":
+"SIGIR":
   url: https://sigir.org/
   color: "#800080"
 
-"NN (CCF B)":
+"NN":
   url: https://www.sciencedirect.com/journal/neural-networks
