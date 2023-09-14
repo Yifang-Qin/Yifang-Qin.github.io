@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Yifang Qin (覃义方) is currently a PhD. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, he has received his B.S. degree at school of EECS, Peking University in 2023.
+Yifang Qin (覃义方) is currently a Ph.D. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, he has received his B.S. degree at school of EECS, Peking University in 2023.
 
 His research interests include Recommender Systems, Graph Neural Networks and other applications of GNN.
 
