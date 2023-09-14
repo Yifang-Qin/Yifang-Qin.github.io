@@ -14,17 +14,19 @@
 
 "TKDE (CCF A)":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69
+  color: "#800080"
 
 "ICASSP (CCF B)":
   url: https://signalprocessingsociety.org/blog/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing
 
 "AAAI (CCF A)":
   url: https://aaai.org/
+  color: "#800080"
 
 "ICDM (CCF B)":
   url: https://ieeexplore.ieee.org/xpl/conhome/1000179/all-proceedings
 
-"ECML-PKDD (CCF B)":
+"ECML-PKDD<br/>(CCF B)":
   url: https://ecmlpkdd.org/
 
 "SIGIR (CCF A)":
