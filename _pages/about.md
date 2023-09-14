@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>No.5 Yiheyuan Road, Haidian District</p>
-    <p>Beijing 100871, P.R.China</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -18,13 +17,25 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a PhD. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, I have received my B.S. degree at school of EECS, Peking University in 2023.
+Yifang Qin (覃义方) is currently a PhD. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, he has received his B.S. degree at school of EECS, Peking University in 2023.
 
-My research interests include Recommender Systems, Graph Neural Networks and other applications of GNN.
+His research interests include Recommender Systems, Graph Neural Networks and other applications of GNN.
 
----
 
-#### Academic Services
+***
+
+### Research Interests
+
+- Recommender Systems
+- Graph Neural Networks
+- Graph Signal Processing
+- Contrastive Learning
+
+***
+
+### Academic Services
+- PC Member/Conference Reviewer for **KDD 2023, NeurIPS 2023, MM 2023, SDM 2024, ICLR 2024**
+- Journal Reviewer for **PLOS ONE**
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

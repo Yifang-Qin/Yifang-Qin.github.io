@@ -4,3 +4,27 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"TOIS":
+  url: https://dl.acm.org/journal/tois
+
+"TKDE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69
+
+"ICASSP":
+  url: https://signalprocessingsociety.org/blog/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing
+
+"AAAI":
+  url: https://aaai.org/
+
+"ICDM":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000179/all-proceedings
+
+"ECMLPKDD":
+  url: https://ecmlpkdd.org/
+
+"SIGIR":
+  url: https://sigir.org/
+
+"NN":
+  url: https://www.sciencedirect.com/journal/neural-networks

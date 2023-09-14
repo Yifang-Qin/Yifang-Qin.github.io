@@ -53,15 +53,16 @@
   author   = {Qin, Yifang and Wu, Hongjun and Ju, Wei and Luo, Xiao and Zhang, Ming},
   journal  = {ACM Transactions on Information Systems},
   url      = {http://dx.doi.org/10.1145/3624475},
-  html     = {https://arxiv.org/abs/2304.07041},
-  pdf      = {TOIS_2023.pdf},
   doi      = {10.1145/3624475},
   abstract = {Next Point-of-Interest (POI) recommendation is a critical task in location-based services that aim to provide personalized suggestions for the user's next destination. Previous works on POI recommendation have laid focused on modeling the user's spatial preference. However, existing works that leverage spatial information are only based on the aggregation of users' previous visited positions, which discourages the model from recommending POIs in novel areas. This trait of position-based methods will harm the model's performance in many situations. Additionally, incorporating sequential information into the user's spatial preference remains a challenge. In this paper, we propose Diff-POI: a Diffusion-based model that samples the user's spatial preference for the next POI recommendation. Inspired by the wide application of diffusion algorithm in sampling from distributions, Diff-POI encodes the user's visiting sequence and spatial character with two tailor-designed graph encoding modules, followed by a diffusion-based sampling strategy to explore the user's spatial visiting trends. We leverage the diffusion process and its reversed form to sample from the posterior distribution and optimized the corresponding score function. We design a joint training and inference framework to optimize and evaluate the proposed Diff-POI. Extensive experiments on four real-world POI recommendation datasets demonstrate the superiority of our Diff-POI over state-of-the-art baseline methods. Further ablation and parameter studies on Diff-POI reveal the functionality and effectiveness of the proposed diffusion-based sampling strategy for addressing the limitations of existing methods.},
+  html     = {https://arxiv.org/abs/2304.07041},
+  pdf      = {TOIS_2023.pdf},
   year     = {2023},
   selected = {true}
 }
 
 @inproceedings{10.1145/3539597.3570408,
+  abbr      = {TOIS},
   author    = {Qin, Yifang and Wang, Yifan and Sun, Fang and Ju, Wei and Hou, Xuyang and Wang, Zhe and Cheng, Jia and Lei, Jun and Zhang, Ming},
   title     = {DisenPOI: Disentangling Sequential and Geographical Influence for Point-of-Interest Recommendation},
   year      = {2023},
@@ -69,33 +70,37 @@
   publisher = {Association for Computing Machinery},
   address   = {New York, NY, USA},
   url       = {https://doi.org/10.1145/3539597.3570408},
-  html      = {https://dl.acm.org/doi/10.1145/3539597.3570408},
   doi       = {10.1145/3539597.3570408},
   abstract  = {Point-of-Interest (POI) recommendation plays a vital role in various location-aware services. It has been observed that POI recommendation is driven by both sequential and geographical influences. However, since there is no annotated label of the dominant influence during recommendation, existing methods tend to entangle these two influences, which may lead to sub-optimal recommendation performance and poor interpretability. In this paper, we address the above challenge by proposing DisenPOI, a novel Disentangled dual-graph framework for POI recommendation, which jointly utilizes sequential and geographical relationships on two separate graphs and disentangles the two influences with self-supervision. The key novelty of our model compared with existing approaches is to extract disentangled representations of both sequential and geographical influences with contrastive learning. To be specific, we construct a geographical graph and a sequential graph based on the check-in sequence of a user. We tailor their propagation schemes to become sequence-/geo-aware to better capture the corresponding influences. Preference proxies are extracted from check-in sequence as pseudo labels for the two influences, which supervise the disentanglement via a contrastive loss. Extensive experiments on three datasets demonstrate the superiority of the proposed model.},
+  html      = {https://dl.acm.org/doi/10.1145/3539597.3570408},
+  pdf       = {WSDM_23.pdf},
+  code      = {https://github.com/Yifang-Qin/DisenPOI},
   booktitle = {Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
   pages     = {508–516},
   numpages  = {9},
   keywords  = {disentangled representation learning, POI recommendation, graph neural networks},
   location  = {Singapore, Singapore},
   series    = {WSDM '23},
-  pdf       = {WSDM_23.pdf},
-  code      = {https://github.com/Yifang-Qin/DisenPOI},
   selected  = {true}
 }
 
 
 @article{10138449,
-  author  = {Luo, Xiao and Zhao, Yusheng and Qin, Yifang and Ju, Wei and Zhang, Ming},
-  journal = {IEEE Transactions on Knowledge and Data Engineering},
-  title   = {Towards Semi-supervised Universal Graph Classification},
-  year    = {2023},
-  volume  = {},
-  number  = {},
-  pages   = {1-13},
-  doi     = {10.1109/TKDE.2023.3280859}
+  abbr     = {TKDE},
+  author   = {Luo, Xiao and Zhao, Yusheng and Qin, Yifang and Ju, Wei and Zhang, Ming},
+  journal  = {IEEE Transactions on Knowledge and Data Engineering},
+  title    = {Towards Semi-supervised Universal Graph Classification},
+  year     = {2023},
+  volume   = {},
+  number   = {},
+  pages    = {1-13},
+  doi      = {10.1109/TKDE.2023.3280859},
+  abstract = {Graph neural networks have pushed state-of-the-arts in graph classifications recently. Typically, these methods are studied within the context of supervised end-to-end training, which necessities copious task-specific labels. However, in real-world circumstances, labeled data could be limited, and there could be a massive corpus of unlabeled data, even from unknown classes as a complementary. Towards this end, we study the problem of semi-supervised universal graph classification, which not only identifies graph samples which do not belong to known classes, but also classifies the remaining samples into their respective classes. This problem is challenging due to a severe lack of labels and potential class shifts. In this paper, we propose a novel graph neural network framework named UGNN, which makes the best of unlabeled data from the subgraph perspective. To tackle class shifts, we estimate the certainty of unlabeled graphs using multiple subgraphs, which facilities the discovery of unlabeled data from unknown categories. Moreover, we construct semantic prototypes in the embedding space for both known and unknown categories and utilize posterior prototype assignments inferred from the Sinkhorn-Knopp algorithm to learn from abundant unlabeled graphs across different subgraph views. Extensive experiments on six datasets verify the effectiveness of UGNN in different settings.},
+  html     = {https://arxiv.org/abs/2305.19598}
 }
 
 @inproceedings{10096088,
+  abbr      = {ICASSP},
   author    = {Yuan, Jingyang and Luo, Xiao and Qin, Yifang and Zhao, Yusheng and Ju, Wei and Zhang, Ming},
   booktitle = {ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   title     = {Learning on Graphs under Label Noise},
@@ -103,17 +108,20 @@
   volume    = {},
   number    = {},
   pages     = {1-5},
-  doi       = {10.1109/ICASSP49357.2023.10096088}
+  doi       = {10.1109/ICASSP49357.2023.10096088},
+  abstract  = {Node classification on graphs is a significant task with a wide range of applications, including social analysis and anomaly detection. Even though graph neural networks (GNNs) have produced promising results on this task, current techniques often presume that label information of nodes is accurate, which may not be the case in real-world applications. To tackle this issue, we investigate the problem of learning on graphs with label noise and develop a novel approach dubbed Consistent Graph Neural Network (CGNN) to solve it. Specifically, we employ graph contrastive learning as a regularization term, which promotes two views of augmented nodes to have consistent representations. Since this regularization term cannot utilize label information, it can enhance the robustness of node representations to label noise. Moreover, to detect noisy labels on the graph, we present a sample selection technique based on the homophily assumption, which identifies noisy nodes by measuring the consistency between the labels with their neighbors. Finally, we purify these confident noisy labels to permit efficient semantic graph learning. Extensive experiments on three well-known benchmark datasets demonstrate the superiority of our CGNN over competing approaches.},
+  html      = {https://ieeexplore.ieee.org/abstract/document/10096088}
 }
 
 @article{Ju_Gu_Chen_Sun_Qin_Liu_Luo_Zhang_2023,
+  abbr     = {AAAI},
   title    = {GLCC: A General Framework for Graph-Level Clustering},
   volume   = {37},
   url      = {https://ojs.aaai.org/index.php/AAAI/article/view/25559},
-  html = {https://ojs.aaai.org/index.php/AAAI/article/view/25559/25331},
-  pdf = {AAAI_2023.pdf},
   doi      = {10.1609/aaai.v37i4.25559},
   abstract = {This paper studies the problem of graph-level clustering, which is a novel yet challenging task. This problem is critical in a variety of real-world applications such as protein clustering and genome analysis in bioinformatics. Recent years have witnessed the success of deep clustering coupled with graph neural networks (GNNs). However, existing methods focus on clustering among nodes given a single graph, while exploring clustering on multiple graphs is still under-explored. In this paper, we propose a general graph-level clustering framework named Graph-Level Contrastive Clustering (GLCC) given multiple graphs. Specifically, GLCC first constructs an adaptive affinity graph to explore instance- and cluster-level contrastive learning (CL). Instance-level CL leverages graph Laplacian based contrastive loss to learn clustering-friendly representations while cluster-level CL captures discriminative cluster representations incorporating neighbor information of each sample. Moreover, we utilize neighbor-aware pseudo-labels to reward the optimization of representation learning. The two steps can be alternatively trained to collaborate and benefit each other. Experiments on a range of well-known datasets demonstrate the superiority of our proposed GLCC over competitive baselines.},
+  html     = {https://ojs.aaai.org/index.php/AAAI/article/view/25559/25331},
+  pdf      = {AAAI_2023.pdf},
   number   = {4},
   journal  = {Proceedings of the AAAI Conference on Artificial Intelligence},
   author   = {Ju, Wei and Gu, Yiyang and Chen, Binqi and Sun, Gongbo and Qin, Yifang and Liu, Xingyuming and Luo, Xiao and Zhang, Ming},
@@ -123,6 +131,7 @@
 }
 
 @inproceedings{10027744,
+  abbr      = {ICDM},
   author    = {Ju, Wei and Qin, Yifang and Qiao, Ziyue and Luo, Xiao and Wang, Yifan and Fu, Yanjie and Zhang, Ming},
   booktitle = {2022 IEEE International Conference on Data Mining (ICDM)},
   title     = {Kernel-based Substructure Exploration for Next POI Recommendation},
@@ -139,6 +148,7 @@
 }
 
 @inproceedings{10.1007/978-3-031-26387-3_29,
+  abbr      = {ECMLPKDD},
   author    = {Wang, Yifan
                and Qin, Yifang
                and Han, Yu
@@ -169,6 +179,7 @@
 
 
 @inproceedings{10.1145/3477495.3531851,
+  abbr      = {SIGIR},
   author    = {Wang, Yifan and Qin, Yifang and Sun, Fang and Zhang, Bo and Hou, Xuyang and Hu, Ke and Cheng, Jia and Lei, Jun and Zhang, Ming},
   title     = {DisenCTR: Dynamic Graph-Based Disentangled Representation for Click-Through Rate Prediction},
   year      = {2022},
@@ -192,6 +203,7 @@
 
 
 @article{JU2023122,
+  abbr     = {NN},
   title    = {Few-shot Molecular Property Prediction via Hierarchically Structured Learning on Relation Graphs},
   journal  = {Neural Networks},
   volume   = {163},
@@ -202,5 +214,6 @@
   url      = {https://www.sciencedirect.com/science/article/pii/S0893608023001685},
   author   = {Wei Ju and Zequn Liu and Yifang Qin and Bin Feng and Chen Wang and Zhihui Guo and Xiao Luo and Ming Zhang},
   keywords = {Molecular property prediction, Few-shot learning, Graph neural networks, Meta learning},
-  abstract = {This paper studies few-shot molecular property prediction, which is a fundamental problem in cheminformatics and drug discovery. More recently, graph neural network based model has gradually become the theme of molecular property prediction. However, there is a natural deficiency for existing methods, that is, the scarcity of molecules with desired properties, which makes it hard to build an effective predictive model. In this paper, we propose a novel framework called Hierarchically Structured Learning on Relation Graphs (HSL-RG) for molecular property prediction, which explores the structural semantics of a molecule from both global-level and local-level granularities. Technically, we first leverage graph kernels to construct relation graphs to globally communicate molecular structural knowledge from neighboring molecules and then design self-supervised learning signals of structure optimization to locally learn transformation-invariant representations from molecules themselves. Moreover, we propose a task-adaptive meta-learning algorithm to provide meta knowledge customization for different tasks in few-shot scenarios. Experiments on multiple real-life benchmark datasets show that HSL-RG is superior to existing state-of-the-art approaches.}
+  abstract = {This paper studies few-shot molecular property prediction, which is a fundamental problem in cheminformatics and drug discovery. More recently, graph neural network based model has gradually become the theme of molecular property prediction. However, there is a natural deficiency for existing methods, that is, the scarcity of molecules with desired properties, which makes it hard to build an effective predictive model. In this paper, we propose a novel framework called Hierarchically Structured Learning on Relation Graphs (HSL-RG) for molecular property prediction, which explores the structural semantics of a molecule from both global-level and local-level granularities. Technically, we first leverage graph kernels to construct relation graphs to globally communicate molecular structural knowledge from neighboring molecules and then design self-supervised learning signals of structure optimization to locally learn transformation-invariant representations from molecules themselves. Moreover, we propose a task-adaptive meta-learning algorithm to provide meta knowledge customization for different tasks in few-shot scenarios. Experiments on multiple real-life benchmark datasets show that HSL-RG is superior to existing state-of-the-art approaches.},
+  html     = {https://doi.org/10.1016/j.neunet.2023.03.034}
 }
