@@ -116,7 +116,7 @@ zotero_username: # your zotero username
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
-google_site_verification: GsRb-hsyl2i6y_yYd3gSrySR2BtBp2pL6L2JG3y8dgs # your google-site-verification ID (Google Search Console)
+google_site_verification: "GsRb-hsyl2i6y_yYd3gSrySR2BtBp2pL6L2JG3y8dgs" # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
