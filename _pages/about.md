@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Yifang Qin (覃义方) is currently a Ph.D. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, he has received his B.S. degree at school of EECS, Peking University in 2023.
 
-His research interests include Recommender Systems, Graph Neural Networks and other applications of GNN.
+His research interests include Recommender Systems, the application of diffusion models, and generative AI for scientific research.
 
 
 ***
@@ -27,15 +27,15 @@ His research interests include Recommender Systems, Graph Neural Networks and ot
 ### Research Interests
 
 - Recommender Systems
-- Graph Neural Networks
-- Graph Signal Processing
-- Contrastive Learning
+- AI4Science
+- Diffusion models
 
 ***
 
-### Academic Services
+<!-- ### Academic Services
 - PC Member/Conference Reviewer for **KDD 2023, NeurIPS 2023, MM 2023, SDM 2024, ICLR 2024, WWW2024**
-- Journal Reviewer for **TOIS, PLOS ONE**
+- Journal Reviewer for **TOIS, PLOS ONE** -->
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

@@ -48,6 +48,42 @@
 @String { AISTATS      = {Proceedings of the International Conference on Artificial Intelligence and Statistics}}
 @String { SDM      = {Proceedings of the SIAM International Conference on Data Mining}}
 
+@article{10.1145/3728464,
+  author = {Qin, Yifang and Ju, Wei and Gu, Yiyang and Qiao, Ziyue and Xiao, Zhiping and Zhang, Ming},
+  title = {PolyCF: Towards Optimal Spectral Graph Filters for Collaborative Filtering},
+  year = {2025},
+  issue_date = {July 2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {43},
+  number = {4},
+  issn = {1046-8188},
+  url = {https://doi.org/10.1145/3728464},
+  doi = {10.1145/3728464},
+  abstract = {Collaborative Filtering (CF) is a pivotal research area in recommender systems that capitalizes on collaborative similarities between users and items to provide personalized recommendations. With the remarkable achievements of node embedding-based Graph Neural Networks (GNNs), we explore the upper bounds of expressiveness inherent to embedding-based methodologies and tackle the challenges by reframing the CF task as a graph-signal processing problem. To this end, we propose PolyCF, a flexible graph signal filter that leverages polynomial graph filters to process interaction signals. PolyCF exhibits the capability to capture spectral features across multiple eigenspaces through a series of Generalized Gram filters and is able to approximate the optimal polynomial response function for recovering missing interactions. A graph optimization objective and a pairwise ranking objective are jointly used to optimize the parameters of the convolution kernel. Experiments on three widely adopted datasets demonstrate the superiority of PolyCF over the state-of-the-art CF methods.},
+  journal = {ACM Trans. Inf. Syst.},
+  month = jun,
+  articleno = {94},
+  numpages = {28},
+  keywords = {Collaborative Filtering, Graph Signal Processing},
+  html={https://dl.acm.org/doi/10.1145/3728464},
+  pdf={TOIS_2025.pdf},
+  selected={true}
+}
+
+@article{Qin_Xie_Xiao_Zhang_2025,
+  title={GeoMamba: Towards Multi-granular POI Recommendation with Geographical State Space Model},
+  volume={39},
+  DOI={10.1609/aaai.v39i12.33360},
+  abstractNote={Point-of-Interest (POI) recommendation plays an important role in a wide range of location-based social network ap- plications, aiming to accurately predicting users’ next visits based on their historical check-in records. Previous efforts have primarily focused on the modifications of existing sequential models, neglecting the fact that POI visiting sequences typically involve continuous state transformation of geographical and intention signals. Additionally, the diverse time span between check-ins require the model to prop- erly recognize user’s multi-granular preference. While recent advances of State Space Model (SSM) have revealed their potential in handling intricate temporal signals, we propose a state-based model that is tailored for spatio-temporal POI sequences. On top of traditional SSMs that are typically limited to linear sequences like Mamba, we propose GeoMamba, which customizes the model states to accommodate the spatio-temporal sequences, especially fitting for POI recommendations. Specifically, while the approximation operator HiPPO sets the foundation of linear SSMs, we introduce a novel GaPPO operator that extends the model’s state space into graph-represented geographical domains. This innovation allows us to construct locational SSM encoders that seamlessly integrate users’ spatio-temporal characteristics. The sequence-aware outputs of GeoMamba are further processed to generate multi-scale behavior representations. Extensive experimental results illustrate the superiority of GeoMamba over several state-of-the-art baselines.}, number={12}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Qin, Yifang and Xie, Jiaxuan and Xiao, Zhiping and Zhang, Ming},
+  year={2025},
+  month={Apr.},
+  pages={12479-12487},
+  pdf={AAAI_2025.pdf},
+  html={https://ojs.aaai.org/index.php/AAAI/article/view/33360},
+  selected={true}
+}
+
 @article{qin2024learning,
   abbr      = {TKDE},
   title     = {Learning graph ODE for continuous-time sequential recommendation},
