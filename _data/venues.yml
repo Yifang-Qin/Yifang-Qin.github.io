@@ -35,3 +35,6 @@
 
 "NN":
   url: https://www.sciencedirect.com/journal/neural-networks
+"Nat. Commun.":
+  url: https://www.nature.com/ncomms/
+  color: "#c0392b"

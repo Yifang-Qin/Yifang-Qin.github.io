@@ -19,16 +19,19 @@ social: true  # includes social icons at the bottom of the page
 
 Yifang Qin (覃义方) is currently a Ph.D. student under the supervision of Prof. [Ming Zhang](https://scholar.google.com/citations?user=LbzoQBsAAAAJ) at the school of computer science, [Peking University](https://www.pku.edu.cn/). Before that, he has received his B.S. degree at school of EECS, Peking University in 2023.
 
-His research interests include Recommender Systems, the application of diffusion models, and generative AI for scientific research.
+He is currently an intern at the post-training RL team of [Moonshot AI (Kimi)](https://www.moonshot.ai/), working on agentic capabilities for scientific coding. Previously, he was a Top Talent intern at [MiniMax](https://www.minimax.io/) (May–Oct 2026), working on RL post-training for performance and engineering optimization tasks; a visiting graduate scholar in Prof. [Yizhou Sun's group](https://web.cs.ucla.edu/~yzsun/) at UCLA (Oct 2025–Mar 2026), working on flow-based models for reaction dynamics; and a research intern at Microsoft Research AI for Science (May 2024–Jun 2025), working on generative models for molecular and crystal structures.
+
+His research interests include generative models (diffusion / flow matching), AI for Science, LLM post-training with reinforcement learning, and recommender systems.
 
 
 ***
 
 ### Research Interests
 
+- Generative models (Diffusion / Flow Matching)
+- AI4Science: molecular & crystal structure generation, reaction dynamics
+- LLM post-training & reinforcement learning
 - Recommender Systems
-- AI4Science
-- Diffusion models
 
 ***
 
